@@ -28,9 +28,6 @@
 <td><label>Note Status</label></td>
 <td><input type="text" name="noteStatus"/></td>
 </tr>
-<td><label>Note Created Time</label></td>
-<td><input type="text" name="createdAt"/></td>
-</tr>
 <tr>
 <td><input type="submit" value="Add Note" ></td>
 </tr>
