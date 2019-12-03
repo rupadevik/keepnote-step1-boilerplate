@@ -44,7 +44,7 @@
 <td>Note Created Time</td>
 </tr>
 <c:forEach items="${noteList}" var="note"> 
- <form action="deleteNote" method="post"> 
+ <form action="deleteNote" method="get"> 
 <tr>
 <td><input type="text" name="noteId" value="${note.noteId}"/></td>
 <td>${note.noteTitle}</td>
